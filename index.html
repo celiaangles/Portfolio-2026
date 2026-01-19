@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Main Wrapper -->
+      <div class="main-wrapper">
+        <!-- Top Section: Header + Works List -->
+        <div class="top-section">
+          <!-- Header Section -->
+          <header class="header">
+            <div class="header-content">
+              <div class="header-left">
+                <h1 class="header-title">Works</h1>
+                <div>
+                  <div class="description-box">
+                    <p class="header-description">
+                      I create clear, consistent
+                      <strong>brand and marketing experiences</strong> across
+                      web, email, and campaigns. With a
+                      <strong>background in design</strong> and
+                      <strong>web development</strong>, I build
+                      <strong>scalable systems</strong> that improve clarity,
+                      usability, and long-term growth.
+                    </p>
+                  </div>
+                  <div class="location-box">
+                    <p class="location">Berlin / Barcelona</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <!-- Works List Section -->
+          <aside class="works-list">
+            <!-- Navigation Tabs -->
+            <nav class="nav-tabs">
+              <button class="nav-tab active" data-filter="selected">
+                Selected
+              </button>
+              <button class="nav-tab" data-filter="all" style="display: none">
+                All Works
+              </button>
+            </nav>
+            <div class="works-list-items" id="worksList">
+              <div
+                class="work-item"
+                data-category="selected"
+                data-project="24m"
+              >
+                <div class="work-info">
+                  <div class="work-name">24metrics</div>
+                  <div class="work-meta">24m</div>
+                </div>
+                <div class="work-year">2025</div>
+              </div>
+              <div
+                class="work-item"
+                data-category="selected"
+                data-project="fxa"
+              >
+                <div class="work-info">
+                  <div class="work-name">Feex Asesores</div>
+                  <div class="work-meta">fxa</div>
+                </div>
+                <div class="work-year">2025</div>
+              </div>
+              <div
+                class="work-item"
+                data-category="selected"
+                data-project="rsp"
+              >
+                <div class="work-info">
+                  <div class="work-name">Respectival</div>
+                  <div class="work-meta">rsp</div>
+                </div>
+                <div class="work-year">2025</div>
+              </div>
+              <div
+                class="work-item"
+                data-category="selected"
+                data-project="inf"
+              >
+                <div class="work-info">
+                  <div class="work-name">INEFABLE</div>
+                  <div class="work-meta">inf</div>
+                </div>
+                <div class="work-year">2025</div>
+              </div>
+
+              <div
+                class="work-item"
+                data-category="selected"
+                data-project="sbf"
+              >
+                <div class="work-info">
+                  <div class="work-name">Subasta Fácil</div>
+                  <div class="work-meta">sbf</div>
+                </div>
+                <div class="work-year">2025</div>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <!-- Bottom Section: Portfolio -->
+        <div class="bottom-section">
+          <!-- Main Content Section -->
+          <main class="main-content">
+            <div class="brand-title">CELIAANGLES</div>
+            <div class="brand-section">
+              <!-- Portfolio Grid -->
+              <div class="portfolio-grid" id="portfolioGrid">
+                <div class="portfolio-item large">
+                  <img
+                    src="projects/24m01.png"
+                    alt="24metrics 1"
+                    id="portfolioImg1"
+                  />
+                </div>
+                <div class="portfolio-item large">
+                  <img
+                    src="projects/24m02.png"
+                    alt="24metrics 2"
+                    id="portfolioImg2"
+                  />
+                </div>
+                <div class="portfolio-item cta">
+                  <a href="https://www.24metrics.com/" class="cta-link">
+                    <div class="cta-content">
+                      <p class="cta-text">SEE ONLINE</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+      <!-- Contact Sidebar -->
+      <div class="contact-sidebar">
+        <div class="contact-text">CONTACT</div>
+        <a href="#">
+          <div class="contact-instagram">
+            IF YOU WANT TO SEE SOMETHING ELSE <br />REACH OUT AT @CELIAANGLES
+          </div></a
+        >
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
